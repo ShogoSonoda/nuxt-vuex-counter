@@ -1,7 +1,22 @@
 <template>
-  <Tutorial/>
+  <section class="container">
+    <div>
+      <Counter></Counter>
+      <hr>
+      <Counter></Counter>
+      <hr>
+      <Counter></Counter>
+      <hr>
+    </div>
+  </section>
 </template>
 
 <script>
-export default {}
+import Counter from '~/compornents/Counter.vue'
+
+export default {
+  components: {
+    Counter
+  }
+}
 </script>
